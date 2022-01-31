@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\list-compr.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\nested-lists.py">
           <value>
             <Attribute>
