@@ -84,3 +84,36 @@ def split_and_join(line):
     return joined_list
 
 print(split_and_join("nino i ti"))
+
+
+
+# Task
+#
+# You are given a string
+# .
+# Your task is to find out if the string contains: alphanumeric characters, alphabetical characters,
+# digits, lowercase and uppercase characters.
+
+def check_characters():
+    s = input()
+    alnum = False
+    alphab = False
+    digit = False
+    lower = False
+    upper = False
+    for _ in s:
+        if _.isalnum():
+            alnum = True
+        if _.isalpha():
+            alphab = True
+        if _.isdigit():
+            digit = True
+        if _.islower():
+            lower = True
+        if _.isupper():
+            upper = True
+    print(alnum)
+    print(alphab)
+    print(digit)
+    print(lower)
+    print(upper)
